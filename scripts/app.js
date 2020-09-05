@@ -5,7 +5,7 @@ const details = document.querySelector('.weather-details');
 const time = document.querySelector('img.time');
 const icon = document.querySelector('.icon img');
 const forecast = new Forecast();
-
+      
 const updateUI = (data) => {
   // destructuring properties
   const { cityDetails, weather } = data;
